@@ -39,5 +39,3 @@ Figure 2 below shows the proposed roadtrip for a vactaion in Braxil, visiting ma
 Figure 2
 <img width="615" alt="fig 2" src="https://user-images.githubusercontent.com/92636438/145733213-27292af4-ef6d-46c7-a768-175fe9254ed1.png">
 
-
-REWIND
