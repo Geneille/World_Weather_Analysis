@@ -9,9 +9,9 @@ This project aims to plan a trip for a vacation based on a specific temperature 
 
 ## Analysis Overview
 
-Calling on Numpy random function in Jupyter Notebook, a set of 2,000 random latitudes and longitudes was first generated and the nearest city to these geographical location was retrieved. An API call with the OpenWeatherMap was then made to collect the city weather data, including the current weather description (at the time the call made). The information was stored in a DataFrame and exported (WeatherPy_Database.csv) for further analysis.
+Calling on Numpy random function in Jupyter Notebook, a set of 2,000 random latitudes and longitudes was first generated and the nearest city to these geographical location was retrieved. An API call with the OpenWeatherMap was then made to collect the city weather data, including the current weather description (at the time the call made). The information was stored in a DataFrame and exported (WeatherPy_Database.csv) for further analysis. The full code can be found in the Weather_Database.ipynb file.
 
-Using the weather data collected, a set of cities and nearby hotels was selected as potential travel destinations based on preferred input temperature in Jupyter Notebook. These destinations were then illustrated on a map with pop-up markers.
+Using the weather data collected, a set of cities and nearby hotels was selected as potential travel destinations based on preferred input temperature in Jupyter Notebook. These destinations were then illustrated on a map with pop-up markers. (See Vacation_Search.ipynb file)
 
 Finally, the Google Directions API was used to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. A marker layer map with a pop-up marker for each city on the itinerary was also created.
 
